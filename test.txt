@@ -1,0 +1,45 @@
+coding-journey/
+│
+├── README.md
+│
+├── fundamentals/
+│   ├── variables.cpp
+│   ├── loops.cpp
+│   ├── functions.cpp
+│   ├── pointers.cpp
+│   └── memory-management.cpp
+│
+├── dsa/
+│   ├── arrays/
+│   │   ├── reverse-array.cpp
+│   │   ├── max-min.cpp
+│   │   └── rotate-array.cpp
+│   ├── linked-list/
+│   ├── stack/
+│   ├── queue/
+│   ├── tree/
+│   ├── graph/
+│   ├── sorting/
+│   └── searching/
+│
+├── problem-solving/
+│   ├── easy/
+│   ├── medium/
+│   └── hard/
+│
+├── language-experiments/
+│   ├── rust/
+│   │   ├── hello-world.rs
+│   │   ├── ownership.rs
+│   ├── python/
+│   │   ├── list-comprehension.py
+│   ├── go/
+│   │   ├── basic-server.go
+│   └── java/
+│       ├── oop-basics.java
+│
+└── notes/
+    ├── cpp-concepts.md
+    ├── dsa-roadmap.md
+    ├── backend-roadmap.md
+    └── progress-log.md
