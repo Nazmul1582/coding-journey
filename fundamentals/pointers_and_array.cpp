@@ -17,9 +17,14 @@ int main()
 {
     int arr[5] = {10, 20, 30, 40, 50};
     int *ptr = arr; // or int* ptr = &arr[0]
-    for (ptr; ptr < arr + 5; ptr++)
+    // for (ptr; ptr < arr + 5; ptr++)
+    // {
+    //     cout << "Pointer: " << ptr << " and Value: " << *ptr << endl;
+    // }
+    while (ptr < arr + 5)
     {
         cout << "Pointer: " << ptr << " and Value: " << *ptr << endl;
+        ptr++;
     }
     return 0;
 }
