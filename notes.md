@@ -14,3 +14,7 @@ int* ptr;   // can be int *ptr also
 int value = 15;
 int* ptr = &value; // Here, pointer ptr store the address of variable value using address-of operator (&).
 ```
+
+## Linear Search Algorithm
+
+In Linear Search, we iterate over all the elements of the array and check if it the current element is equal to the target element. (like array.find or array.findIndex() in JavaScript)
