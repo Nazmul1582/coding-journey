@@ -2,6 +2,7 @@
 
 - [Pointers](https://www.programiz.com/cpp-programming/pointers)
 - [Linear Search Algorithm](https://www.geeksforgeeks.org/dsa/linear-search/)
+- [Binary Search Algorithm](https://www.geeksforgeeks.org/dsa/binary-search/)
 
 ## C++ Pointers
 
