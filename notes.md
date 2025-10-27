@@ -1,4 +1,7 @@
-# Fundamentals
+# Fundamentals with DSA
+
+- [Pointers](https://www.programiz.com/cpp-programming/pointers)
+- [Linear Search Algorithm](https://www.geeksforgeeks.org/dsa/linear-search/)
 
 ## C++ Pointers
 
