@@ -22,9 +22,16 @@ let arr = [1, 2, 2, 3, 4, 4, 5]
 // }
 // console.log(filteredArr.sort((a, b) => a - b))
 
-// 3. using for....of loop (for sorted/unsorted)
+// 3. using for....of loop (for sorted/unsorted) ======================
+// let filteredArr = []
+// for (let item of arr) {
+//   if (!filteredArr.includes(item)) filteredArr.push(item)
+// }
+// console.log(filteredArr)
+
+// 4. using forEach() ===================
 let filteredArr = []
-for (let item of arr) {
-  if (!filteredArr.includes(item)) filteredArr.push(item)
-}
+arr.forEach((el) => {
+  if (!filteredArr.includes(el)) filteredArr.push(el)
+})
 console.log(filteredArr)
