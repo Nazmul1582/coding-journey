@@ -11,13 +11,20 @@ let arr = [1, 2, 2, 3, 4, 4, 5]
 // console.log(filteredArr)
 
 // 2. using while loop for sorted array ======================
+// let filteredArr = []
+// filteredArr.push(arr[arr.length - 1])
+// let i = arr.length - 1
+// while (i > 0) {
+//   if (arr[i] !== arr[i - 1]) {
+//     filteredArr.push(arr[i - 1])
+//   }
+//   i--
+// }
+// console.log(filteredArr.sort((a, b) => a - b))
+
+// 3. using for....of loop (for sorted/unsorted)
 let filteredArr = []
-filteredArr.push(arr[arr.length - 1])
-let i = arr.length - 1
-while (i > 0) {
-  if (arr[i] !== arr[i - 1]) {
-    filteredArr.push(arr[i - 1])
-  }
-  i--
+for (let item of arr) {
+  if (!filteredArr.includes(item)) filteredArr.push(item)
 }
-console.log(filteredArr.sort((a, b) => a - b))
+console.log(filteredArr)
